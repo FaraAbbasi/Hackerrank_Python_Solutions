@@ -1,6 +1,6 @@
-### **Python If-Else**
+## **Python If-Else**
 
-#### **What are if, elif, and else?**
+### **What are if, elif, and else?**
 
 Think of these as decision-makers.
 
@@ -10,7 +10,7 @@ Think of these as decision-makers.
 
 * `else`: This is the catch-all. If none of the previous conditions were true, then do this.
 
-#### **The Problem Statement**
+### **The Problem Statement**
 
 The task is to write a program that reads a single integer `n` and, based on a set of rules, decides whether the number is "Weird" or "Not Weird".
 
@@ -26,7 +26,7 @@ Here are the rules:
 
    - If n > 20, it's "Not Weird".
 
-#### **The Python Code**
+### **The Python Code**
 
 ```python
 n = int(input().strip())
@@ -42,7 +42,7 @@ else:
     print('Weird')
 ```
 
-#### **How to Run**
+### **How to Run**
 
 1. Save the code as `if_else.py`.
 2. Open a terminal in the folder containing the file.
@@ -54,7 +54,7 @@ else:
 
 4. Enter an integer when prompted.
 
-#### **How It Works (Step-by-Step)**
+### **How It Works (Step-by-Step)**
 
 Let's walk through the logic with the given examples.
 
@@ -92,7 +92,7 @@ Let's walk through the logic with the given examples.
 
 3. The code then checks the final `elif n > 20:` condition. Since `24 > 20` is `True`, it prints "Not Weird".
 
-#### **Key Concepts Practiced**
+### **Key Concepts Practiced**
 
 * **`if-elif-else` Statements:** The decision-making backbone of your code, allowing it to take different paths based on conditions.
 
@@ -102,7 +102,7 @@ Let's walk through the logic with the given examples.
 
 * Nested `if` Statements: Placing one `if` statement inside another to create more specific checks.
 
-#### **Why This Problem Matters**
+### **Why This Problem Matters**
 
 This challenge introduces conditional logic, one of the most essential concepts in programming. Mastering `if-else` statements allows your code to respond intelligently to different situations.
 

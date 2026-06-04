@@ -1,6 +1,6 @@
-### **Python Arithmetic Operators**
+## **Python Arithmetic Operators**
 
-#### **What is the problem?**
+### **What is the problem?**
 
 In this HackerRank problem we have to take two integers (whole numbers) from user and do three basic arithmetic operations:
 
@@ -12,7 +12,7 @@ In this HackerRank problem we have to take two integers (whole numbers) from use
 
 Then print the results on a new line.
 
-#### **The Problem Statement**
+### **The Problem Statement**
 
 1. Read two integers, a and b (where 1 ≤ a, b ≤ 10¹⁰).
 
@@ -21,8 +21,8 @@ Then print the results on a new line.
 3. Print the difference of a and b (first minus second).
 
 4. Print the product of a and b.
-   
-#### **The Python Code**
+
+### **The Python Code**
 
 ```python
 # Read two integers from input
@@ -35,7 +35,7 @@ print(a - b)   # subtraction
 print(a * b)   # multiplication
 ```
 
-#### **How It Works (Step by Step)**
+### **How It Works (Step by Step)**
 
 * `input()` reads a line of text from the user and returns it as a string.
 
@@ -51,13 +51,13 @@ The operations are easy :
 * `-` subtracts the second from the first.
 
 * `*` multiplies them
-  
-#### **How to Run**
+
+### **How to Run**
 
 1. Save the code as `arithmetic_ops.py`.  
 2. Open a terminal in the folder containing the file.  
 3. Run the command:
-   
+
    ```bash
    python arithmetic_ops.py
    ```
