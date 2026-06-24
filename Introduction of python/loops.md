@@ -4,6 +4,8 @@
 
 This HackerRank challenge focuses on automating repetitive tasks with loops. Instead of writing the same code multiple times, we write it once and let the loop manage the repetition. In this particular problem, we need to take an integer `n` and print the square of every non-negative integer less than `n` (i.e., `0², 1², 2², …, up to (n-1)²`).
 
+---
+
 ### **The Problem Statement**
 
 1. Read a single integer `n` (e.g., 5).
@@ -13,6 +15,8 @@ This HackerRank challenge focuses on automating repetitive tasks with loops. Ins
    - Calculate `i * i` (the square of i).
 
    - Print the result on a new line.
+
+---
 
 ### **The Python Code**
 
@@ -24,6 +28,8 @@ n = int(input())
 for i in range(n):
     print(i ** 2)   # i**2 calculates the square of i
 ```
+
+---
 
 ### **How It Works(Step by Step)**
 
@@ -43,6 +49,8 @@ Let’s break down how this works, as if we were the computer itself:
 
 3. Once we hit `i = 4`, the loop wraps up automatically.
 
+---
+
 ### **How to Run**
 
 1. Save the code as `loops.py`.
@@ -54,6 +62,8 @@ Let’s break down how this works, as if we were the computer itself:
    ```
 
 4. Enter an integer when prompted.
+
+---
 
 ### **Working Example:**
 
@@ -78,6 +88,8 @@ Let’s break down how this works, as if we were the computer itself:
 16
 ```
 
+---
+
 ### **Key Concepts Practiced**
 
 * **`for` loops**: Perfect when you know exactly how many times to repeat an action.
@@ -88,8 +100,12 @@ Let’s break down how this works, as if we were the computer itself:
 
 * **Printing in a loop**: Each call to `print()` automatically starts a new line.
 
+---
+
 ### **Why This Problem Matters**
 
 This challenge is our first step into **automation**. Instead of writing `print(0)`, `print(1)`, `print(4)`... by hand, we write a few lines of code and let the computer do the boring work for us. That’s the beauty of programming!
 
 > Problem originally from [HackerRank](https://www.hackerrank.com/challenges/python-loops/problem).
+
+---

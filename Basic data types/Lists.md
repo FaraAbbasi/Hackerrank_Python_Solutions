@@ -4,6 +4,8 @@
 
 In this challenge we will be working with lists. The list is, like a box where we can put things in it and take things out of it. We will start with an empty list and then execute a series of commands that will modify our list. Working with lists is good practice because it helps us get used to doing the things that people do with lists all the time in Python.
 
+---
+
 ### **The Problem Statement**
 
 1. We are given an integer `N`. `N` is the number of commands to process.
@@ -13,6 +15,8 @@ In this challenge we will be working with lists. The list is, like a box where w
 3. For each command, you must perform the exact list operation.
 
 4. Whenever you see the print command, you output the current state of the list.
+
+---
 
 ### **The Python Code**
 
@@ -39,6 +43,8 @@ if __name__ == '__main__':
         elif command[0] == 'reverse':
             list.reverse()    
 ```
+
+---
 
 ### **How It Works**
 
@@ -67,6 +73,8 @@ A series of `if-elif` statements decides what to do:
 | `pop`              | `my_list.pop()` – removes and returns the last element.                        |
 | `reverse`          | `my_list.reverse()` – reverses the order of the list.                          |
 
+---
+
 ### **How to Run**
 
 1. Save the code as `list_operations.py`.
@@ -78,6 +86,8 @@ A series of `if-elif` statements decides what to do:
    ```
 
 4. Enter the number of commands, followed by each command on its own line.
+
+---
 
 ### **Working Example**
 
@@ -123,6 +133,8 @@ Let's see what will happen step by step:
 [9, 5, 1]
 ```
 
+---
+
 ### **Key Concepts Practiced**
 
 1. **Processing multiple commands with a loop**:
@@ -143,8 +155,12 @@ Let's see what will happen step by step:
 
 5. **Type conversion** – Command arguments are read as strings, so we must convert them to integers with `int()` function.
 
+---
+
 ### **Why This Problem Matters**
 
 Lists are one of the most versatile and frequently used data structures in Python. This problem forces us to master the basic operations that we'll use in almost every Python program we write.
 
 > Problem originally from [HackerRank](https://www.hackerrank.com/challenges/python-lists/problem).
+
+---

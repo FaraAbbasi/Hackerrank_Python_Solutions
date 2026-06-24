@@ -1,6 +1,5 @@
 # 🐍 HackerRank Python Solutions
 
-
 ## 📌 Overview
 
 Welcome to my **HackerRank Python Solutions** repository! This collection contains **complete, tested solutions** to all HackerRank Python practice problems from the basics to advanced topics.
@@ -17,15 +16,16 @@ Each solution file is **self-documented** with:
 
 Whether you're preparing for coding interviews, strengthening your Python fundamentals, or looking for well-documented reference solutions — this repo has you covered.
 
+---
 
 ## 🗺️ Navigation
 
 | Subdomain | Problems Covered |
 |-----------|------------------|
-| **introduction/** | Hello World, If-Else, Arithmetic Operators, Division, Loops, Write a Function, Print Function |
-| **basic_data_types/** | List Comprehensions, Runner-Up Score, Nested Lists, Finding Percentage, Lists, Tuples |
-| **strings/** | Swap Case, Split & Join, What's Your Name, Mutations, Find a String, String Validators, Text Alignment, Text Wrap, Designer Door Mat, String Formatting, Alphabet Rangoli, Capitalize, The Minion Game |
-| **sets/** | Introduction to Sets, Symmetric Difference, Set Add, Discard/Remove/Pop, Union/Intersection, Difference, Mutations, Captain's Room, Check Subset |
+| **Introduction of Python/** | Hello World, If-Else, Arithmetic Operators, Division, Loops, Write a Function, Print Function |
+| **Basic_Data_Types/** | List Comprehensions, Runner-Up Score, Nested Lists, Finding Percentage, Lists, Tuples |
+| **Strings/** | Swap Case, Split & Join, What's Your Name, Mutations, Find a String, String Validators, Text Alignment, Text Wrap, Designer Door Mat, String Formatting, Alphabet Rangoli, Capitalize, The Minion Game |
+| **Sets/** | Introduction to Sets, Symmetric Difference, Set Add, Discard/Remove/Pop, Union/Intersection, Difference, Mutations, Captain's Room, Check Subset |
 
 ---
 
@@ -42,6 +42,8 @@ git clone https://github.com/FaraAbbasi/Hackerrank_Python_Solutions.git
 cd hackerrank-python-solutions
 ```
 
+---
+
 ### Run a Solution
 
 Navigate to the appropriate folder and run any Python file:
@@ -50,6 +52,8 @@ Navigate to the appropriate folder and run any Python file:
 cd introduction/
 python loops.py
 ```
+
+---
 
 ## 📖 How Each Solution is Documented
 
@@ -119,9 +123,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 If you find this repository helpful, please consider:
 
-- ⭐ Starring it on GitHub
-- 🍴 Forking it to save for later
-- 📢 Sharing it with fellow learners
+- Starring it on GitHub
+- Forking it to save for later
+- Sharing it with fellow learners
 
 ---
 
@@ -132,6 +136,6 @@ If you find this repository helpful, please consider:
 
 ---
 
-**Happy Coding! 🚀**
+**Happy Coding!**
 
 ---

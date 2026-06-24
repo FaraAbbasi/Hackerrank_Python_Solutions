@@ -8,6 +8,8 @@ We are given the names and grades for each student in a class, and our task is t
  
 This challenge is the perfect next step after mastering list operations because it introduces nested data structures and combines multiple concepts you've already learned: reading input, using loops, extracting data from a list of lists, working with set to find unique grades, sorting, and filtering.
 
+---
+
 ### **The Problem Statement** 
 
 1. We are given the number of students in the class, followed by each student's name and grade.
@@ -17,6 +19,8 @@ This challenge is the perfect next step after mastering list operations because 
 3. Our task is to find the second lowest grade among all students.
 
 4. We have to find the names of students who have this lowest grade. These names need to be sorted in order. Each name should be on a line when we output them. The names of students who have the lowest grade will be listed one, by one.
+
+---
 
 ### The Python Code
 
@@ -42,6 +46,8 @@ result = [student[0] for student in students if student[1] == second_lowest]
 for name in sorted(result):
     print(name)
 ```
+
+---
 
 ### **How It Works** 
 
@@ -96,17 +102,21 @@ for name in sorted(result):
 
 * The for loop then prints each name on a new line, which is exactly what the problem requires.
 
+---
+
 ### **How to Run**
 
-1.  Save the code as `nested_lists.py`.
-2.  Open a terminal in the folder containing the file.
-3.  Run the command:
-   
+1. Save the code as `nested_lists.py`.
+2. Open a terminal in the folder containing the file.
+3. Run the command:
+
     ```bash
     python nested_lists.py
     ```
 
-4.  Follow the prompts to enter the number of students, then each student's name and grade.
+4. Follow the prompts to enter the number of students, then each student's name and grade.
+
+---
   
 ### **Example**
 
@@ -133,6 +143,8 @@ Berry
 Harry
 ```
 
+---
+
 ### **Key Concepts Practiced**
 
 | Concept                                                                     | Description                                                                                                    |
@@ -145,9 +157,13 @@ Harry
 | Conditional filtering in list comprehensions                                | The `if` clause inside the list comprehension filters students by grade.                                      |
 | Using `join()` for output (in the compact version)                          | `"\n".join(sorted(names))` combines a list of strings into a single string, each separated by a newline.      |
 | Handling floating-point grades                                              | The problem uses `float(input())` to read grades.                                                              |
-                                            
+
+---
+
 ### **Why This Problem Matters**
 
 This challenge is a milestone, as it introduces **nested data structures** (lists of lists) and an important **data processing pipeline**: extract, transform, filter and output. It builds directly on our knowledge from the “Lists” problem and pushes us to write clean, efficient code that gracefully handles real-world edge cases like duplicate grades.
 
 > Problem originally from [HackerRank](https://www.hackerrank.com/challenges/nested-list/problem?isFullScreen=true)
+
+---

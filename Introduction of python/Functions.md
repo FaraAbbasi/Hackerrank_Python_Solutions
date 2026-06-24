@@ -4,6 +4,8 @@
 
 This HackerRank challenge asks us to write a function that determines whether a given year is a leap year or not. It's a good step up from if-else statements because in this problem we will learn how to package our logic into a reusable block of code, basically a function.
 
+---
+
 ### **The Problem Statement**
 
 1. We are given a year (e.g., 1990 or 2000).
@@ -13,6 +15,8 @@ This HackerRank challenge asks us to write a function that determines whether a 
    - True if the year is a leap year.
 
    - False if it's not.
+
+---
 
 ### **The Python Code**
 
@@ -32,6 +36,8 @@ def is_leap(year):
 year = int(input())
 print(is_leap(year))
 ```
+
+---
 
 ### **How It Works (Step by Step)**
 
@@ -84,6 +90,8 @@ Let's walk through each case:
 - `2024 % 100` is **not 0` → the inner `if` block is skipped.
 - Result: **`True`** (leap year).
 
+---
+
 ### **Key Concepts Practiced**
 
 **1. Defining a function with `def`**
@@ -101,8 +109,12 @@ The `%` operator gives us the **remainder** after division. If `year % 4 == 0`, 
 **5. Working with boolean (`True`/`False`) values**
 Booleans are the simplest data type – they represent **yes or no**, **on or off**. Our function returned either `True` (leap year) or `False` (not a leap year). This makes the answer easy to use in other conditions later.
 
+---
+
 ### **Why This Problem Matters**
 
 This challenge introduces **functions**, one of the most important building blocks in programming. Instead of writing the same leap‑year logic over and over, you can write it once inside a function and reuse it wherever you need it. It's the first step toward writing clean, modular code.
 
 > Problem originally from [HackerRank](https://www.hackerrank.com/challenges/write-a-function/problem).
+
+---

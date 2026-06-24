@@ -12,6 +12,8 @@ In this HackerRank problem we have to take two integers (whole numbers) from use
 
 Then print the results on a new line.
 
+---
+
 ### **The Problem Statement**
 
 1. Read two integers, a and b (where 1 ≤ a, b ≤ 10¹⁰).
@@ -21,6 +23,8 @@ Then print the results on a new line.
 3. Print the difference of a and b (first minus second).
 
 4. Print the product of a and b.
+
+---
 
 ### **The Python Code**
 
@@ -34,6 +38,8 @@ print(a + b)   # addition
 print(a - b)   # subtraction
 print(a * b)   # multiplication
 ```
+
+---
 
 ### **How It Works (Step by Step)**
 
@@ -52,6 +58,8 @@ The operations are easy :
 
 * `*` multiplies them
 
+---
+
 ### **How to Run**
 
 1. Save the code as `arithmetic_ops.py`.  
@@ -63,6 +71,8 @@ The operations are easy :
    ```
 
 4. Enter two integers when prompted.
+
+---
 
 #### **Working Example:**
 
@@ -91,14 +101,20 @@ The operations are easy :
 6
 ```
 
+---
+
 #### **Why This Problem Matters**
 
 * Teaches basic input/output in Python.
 * Introduces integer conversion and arithmetic operators.
 * Emphasizes that Python can handle very large integers (up to 10¹⁰) without special treatment.
 
+---
+
 #### **Why I Solved This**
 
 This problem helped me get comfortable with basic Python operations and input handling. It’s a small but important step in my coding journey!
 
 > Problem originally from [HackerRank](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem).
+
+---
