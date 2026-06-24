@@ -1,6 +1,6 @@
-## **Python If-Else**
+# **Python If-Else**
 
-### **What are if, elif, and else?**
+## **What are if, elif, and else?**
 
 Think of these as decision-makers.
 
@@ -12,7 +12,7 @@ Think of these as decision-makers.
 
 ---
 
-### **The Problem Statement**
+## **The Problem Statement**
 
 The task is to write a program that reads a single integer `n` and, based on a set of rules, decides whether the number is "Weird" or "Not Weird".
 
@@ -30,7 +30,7 @@ Here are the rules:
 
 ---
 
-### **The Python Code**
+## **The Python Code**
 
 ```python
 n = int(input().strip())
@@ -48,7 +48,7 @@ else:
 
 ---
 
-### **How to Run**
+## **How to Run**
 
 1. Save the code as `if_else.py`.
 2. Open a terminal in the folder containing the file.
@@ -62,7 +62,7 @@ else:
 
 ---
 
-### **How It Works (Step-by-Step)**
+## **How It Works (Step-by-Step)**
 
 Let's walk through the logic with the given examples.
 
@@ -102,7 +102,7 @@ Let's walk through the logic with the given examples.
 
 ---
 
-### **Key Concepts Practiced**
+## **Key Concepts Practiced**
 
 * **`if-elif-else` Statements:** The decision-making backbone of your code, allowing it to take different paths based on conditions.
 
@@ -114,7 +114,7 @@ Let's walk through the logic with the given examples.
 
 ---
 
-### **Why This Problem Matters**
+## **Why This Problem Matters**
 
 This challenge introduces conditional logic, one of the most essential concepts in programming. Mastering `if-else` statements allows your code to respond intelligently to different situations.
 

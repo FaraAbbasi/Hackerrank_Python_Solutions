@@ -1,12 +1,12 @@
 # **Python Lists** 
 
-### **What is this problem?**
+## **What is this problem?**
 
 In this challenge we will be working with lists. The list is, like a box where we can put things in it and take things out of it. We will start with an empty list and then execute a series of commands that will modify our list. Working with lists is good practice because it helps us get used to doing the things that people do with lists all the time in Python.
 
 ---
 
-### **The Problem Statement**
+## **The Problem Statement**
 
 1. We are given an integer `N`. `N` is the number of commands to process.
 
@@ -18,7 +18,7 @@ In this challenge we will be working with lists. The list is, like a box where w
 
 ---
 
-### **The Python Code**
+## **The Python Code**
 
 ```python
 if __name__ == '__main__':
@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
 ---
 
-### **How It Works**
+## **How It Works**
 
 **1. Reading Input**
 
@@ -75,7 +75,7 @@ A series of `if-elif` statements decides what to do:
 
 ---
 
-### **How to Run**
+## **How to Run**
 
 1. Save the code as `list_operations.py`.
 2. Open a terminal in the folder containing the file.
@@ -89,7 +89,7 @@ A series of `if-elif` statements decides what to do:
 
 ---
 
-### **Working Example**
+## **Working Example**
 
 Let's use the sample input from HackerRank:
 
@@ -135,7 +135,7 @@ Let's see what will happen step by step:
 
 ---
 
-### **Key Concepts Practiced**
+## **Key Concepts Practiced**
 
 1. **Processing multiple commands with a loop**:
  A for loop automates repetition by executing a sequence of instructions exactly `N` times one after the other.
@@ -157,7 +157,7 @@ Let's see what will happen step by step:
 
 ---
 
-### **Why This Problem Matters**
+## **Why This Problem Matters**
 
 Lists are one of the most versatile and frequently used data structures in Python. This problem forces us to master the basic operations that we'll use in almost every Python program we write.
 

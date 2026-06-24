@@ -1,6 +1,6 @@
-## **Nested Lists**
+# **Nested Lists**
 
-### **What Is This Problem?**
+## **What Is This Problem?**
 
 The "Nested Lists" problem is a classic data-processing challenge where we need to parse student data and find specific information.
 
@@ -10,7 +10,7 @@ This challenge is the perfect next step after mastering list operations because 
 
 ---
 
-### **The Problem Statement** 
+## **The Problem Statement** 
 
 1. We are given the number of students in the class, followed by each student's name and grade.
 
@@ -22,7 +22,7 @@ This challenge is the perfect next step after mastering list operations because 
 
 ---
 
-### The Python Code
+## The Python Code
 
 There are multiple ways to solve this problem. Here is a simple solution that is broken down into easy to follow steps. This solution is straightforward and easy to understand.
 
@@ -49,7 +49,7 @@ for name in sorted(result):
 
 ---
 
-### **How It Works** 
+## **How It Works** 
 
 Let's break down the code into logical sections, so that it will easy to understand it:
 
@@ -104,7 +104,7 @@ for name in sorted(result):
 
 ---
 
-### **How to Run**
+## **How to Run**
 
 1. Save the code as `nested_lists.py`.
 2. Open a terminal in the folder containing the file.
@@ -118,7 +118,7 @@ for name in sorted(result):
 
 ---
   
-### **Example**
+## **Working Example**
 
 **Input:**
 
@@ -145,7 +145,7 @@ Harry
 
 ---
 
-### **Key Concepts Practiced**
+## **Key Concepts Practiced**
 
 | Concept                                                                     | Description                                                                                                    |
 | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -160,7 +160,7 @@ Harry
 
 ---
 
-### **Why This Problem Matters**
+## **Why This Problem Matters**
 
 This challenge is a milestone, as it introduces **nested data structures** (lists of lists) and an important **data processing pipeline**: extract, transform, filter and output. It builds directly on our knowledge from the “Lists” problem and pushes us to write clean, efficient code that gracefully handles real-world edge cases like duplicate grades.
 

@@ -1,6 +1,6 @@
-### **Python: Division**
+# **Python: Division**
 
-#### **What is this problem?**
+## **What is this problem?**
 
 This HackerRank problem is based on the basic arithmetic that we already learned. It asks you to take two numbers and divide them in two different ways:
 
@@ -10,7 +10,7 @@ This HackerRank problem is based on the basic arithmetic that we already learned
 
 ---
 
-#### **The Problem Statement**
+## **The Problem Statement**
 
 1. Read two integers, a and b.
 
@@ -20,7 +20,7 @@ This HackerRank problem is based on the basic arithmetic that we already learned
 
 ---
 
-#### **The Python Code**
+## **The Python Code**
 
 ```python
 # Read two integers from input
@@ -34,7 +34,7 @@ print(a / b)   # Float division (gives you the precise decimal result)
 
 ---
 
-#### **How to Run**
+## **How to Run**
 
 1. Save the code as `division.py`.
 2. Open a terminal in the folder containing the file.
@@ -48,7 +48,7 @@ print(a / b)   # Float division (gives you the precise decimal result)
 
 ---
 
-#### **Working Exmaple**
+## **Working Exmaple**
 
 Let's use the sample input from HackerRank: `4` and `3`.
 
@@ -76,7 +76,7 @@ Let's use the sample input from HackerRank: `4` and `3`.
 
 ---
 
-#### **Key Concept Practiced: The Two Types of Division**
+## **Key Concept Practiced: The Two Types of Division**
 
 This is the most important part of the problem. Python has two different division operators:
 
@@ -87,7 +87,7 @@ This is the most important part of the problem. Python has two different divisio
 
 ---
 
-#### **A Note on Division in Python**
+## **A Note on Division in Python**
 
 Python has two kinds of division. We have the `/` operator that does division with points and the `//` operator that does division without decimal points.
 
@@ -97,7 +97,7 @@ Python has two kinds of division. We have the `/` operator that does division wi
 
 ---
 
-#### **Why This Problem Matters**
+## **Why This Problem Matters**
 
 * It teaches the critical distinction between integer and floating-point arithmetic.
 

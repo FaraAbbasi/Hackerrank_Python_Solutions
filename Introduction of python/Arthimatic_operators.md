@@ -1,6 +1,6 @@
-## **Python Arithmetic Operators**
+# **Python Arithmetic Operators**
 
-### **What is the problem?**
+## **What is the problem?**
 
 In this HackerRank problem we have to take two integers (whole numbers) from user and do three basic arithmetic operations:
 
@@ -14,7 +14,7 @@ Then print the results on a new line.
 
 ---
 
-### **The Problem Statement**
+## **The Problem Statement**
 
 1. Read two integers, a and b (where 1 ≤ a, b ≤ 10¹⁰).
 
@@ -26,7 +26,7 @@ Then print the results on a new line.
 
 ---
 
-### **The Python Code**
+## **The Python Code**
 
 ```python
 # Read two integers from input
@@ -41,7 +41,7 @@ print(a * b)   # multiplication
 
 ---
 
-### **How It Works (Step by Step)**
+## **How It Works (Step by Step)**
 
 * `input()` reads a line of text from the user and returns it as a string.
 
@@ -60,7 +60,7 @@ The operations are easy :
 
 ---
 
-### **How to Run**
+## **How to Run**
 
 1. Save the code as `arithmetic_ops.py`.  
 2. Open a terminal in the folder containing the file.  
@@ -74,7 +74,7 @@ The operations are easy :
 
 ---
 
-#### **Working Example:**
+### **Working Example:**
 
 **Input:**
 
@@ -103,7 +103,7 @@ The operations are easy :
 
 ---
 
-#### **Why This Problem Matters**
+## **Why This Problem Matters**
 
 * Teaches basic input/output in Python.
 * Introduces integer conversion and arithmetic operators.
@@ -111,7 +111,7 @@ The operations are easy :
 
 ---
 
-#### **Why I Solved This**
+## **Why I Solved This**
 
 This problem helped me get comfortable with basic Python operations and input handling. It’s a small but important step in my coding journey!
 
