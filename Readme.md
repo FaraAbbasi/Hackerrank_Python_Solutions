@@ -14,7 +14,7 @@ Each solution file is **self-documented** with:
 - ✅ Key concepts practiced
 - ✅ Why the problem matters
 
-Whether you're preparing for coding interviews, strengthening your Python fundamentals, or looking for well-documented reference solutions — this repo has you covered.
+Whether you're preparing for coding interviews, strengthening your Python fundamentals, or looking for well-documented reference solutions, this repo is for you.
 
 ---
 
